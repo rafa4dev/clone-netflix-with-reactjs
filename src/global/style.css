@@ -1,0 +1,64 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111;
+    color: #fff;
+    margin: 0;
+    font-family: 'Roboto', Sans-serif;
+}
+
+
+.lists {
+    padding-top: -150px;
+}
+
+.black{
+    background: #141414 !important;
+}
+
+.loading {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    margin: 50px 0;
+    text-align: center;
+}
+
+@media (max-width:760px) {
+    .featured {
+        height: 90vh;
+    }
+    .featured--name {
+        font-size: 40px;
+    }
+    .featured--info {
+        font-size: 16px;
+    }
+    .featured--description {
+        font-size: 14px;
+        max-width: 100%;
+        margin-right: 30px;
+    }
+    .featured--watchbutton,
+    .featured--mylistbutton {
+        font-size: 16px;
+    }
+    .featured--genres {
+        font-size: 14px;
+    }
+}
